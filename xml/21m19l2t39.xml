@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TRIAL CARDINALITY="1" DIALOGUE="no" DOMAIN="furniture" ID="21m19l2t39" MODALITY="spoken">
+  <DOMAIN>
+    <ENTITY IMAGE="fanRightRedLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY ID="60" IMAGE="fanLeftRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY ID="56" IMAGE="fanFrontRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY ID="121" IMAGE="fanLeftBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY IMAGE="chairLeftBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY ID="6" IMAGE="chairFrontGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+    </ENTITY>
+    <ENTITY IMAGE="sofaLeftRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION RE_DURATION="3.04">der grosse rote Ventilator der nach rechts schaut</STRING-DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a1" NAME="size" VALUE="large"/>
+    <ATTRIBUTE ID="a2" NAME="colour" VALUE="red"/>
+    <ATTRIBUTE ID="a3" NAME="type" VALUE="fan"/>
+    <ATTRIBUTE ID="a4" NAME="orientation" VALUE="right"/>
+  </ATTRIBUTE-SET>
+</TRIAL>

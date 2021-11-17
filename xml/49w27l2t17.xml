@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TRIAL CARDINALITY="1" DIALOGUE="no" DOMAIN="furniture" ID="49w27l2t17" MODALITY="spoken">
+  <DOMAIN>
+    <ENTITY IMAGE="deskLeftBlueLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY IMAGE="deskLeftBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY ID="27" IMAGE="deskLeftGreyLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+    </ENTITY>
+    <ENTITY IMAGE="deskLeftGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+    </ENTITY>
+    <ENTITY ID="21" IMAGE="deskFrontBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY ID="29" IMAGE="deskRightBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY ID="103" IMAGE="sofaFrontGreySmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION RE_DURATION="5.26975">der grosse blaue Schreibtisch der nach links zeigt mit den Schubladen</STRING-DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a1" NAME="size" VALUE="large"/>
+    <ATTRIBUTE ID="a2" NAME="colour" VALUE="blue"/>
+    <ATTRIBUTE ID="a3" NAME="type" VALUE="desk"/>
+    <ATTRIBUTE ID="a4" NAME="orientation" VALUE="left"/>
+    <ATTRIBUTE ID="a5" NAME="orientation" VALUE="left"/>
+  </ATTRIBUTE-SET>
+</TRIAL>

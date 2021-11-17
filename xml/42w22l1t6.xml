@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TRIAL CARDINALITY="1" DIALOGUE="no" DOMAIN="furniture" ID="42w22l1t6" MODALITY="spoken">
+  <DOMAIN>
+    <ENTITY ID="112" IMAGE="sofaRightRedSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY ID="111" IMAGE="sofaRightGreySmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+    </ENTITY>
+    <ENTITY ID="109" IMAGE="sofaRightBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+    <ENTITY IMAGE="sofaFrontRedSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY ID="108" IMAGE="sofaLeftRedSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY ID="48" IMAGE="sofaRightRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+    </ENTITY>
+    <ENTITY IMAGE="deskLeftBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION RE_DURATION="3.596333">die rote Couch klein die die zu mir zeigt</STRING-DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a1" NAME="colour" VALUE="red"/>
+    <ATTRIBUTE ID="a2" NAME="type" VALUE="sofa"/>
+    <ATTRIBUTE ID="a3" NAME="size" VALUE="small"/>
+    <ATTRIBUTE ID="a4" NAME="orientation" VALUE="right"/>
+  </ATTRIBUTE-SET>
+</TRIAL>
